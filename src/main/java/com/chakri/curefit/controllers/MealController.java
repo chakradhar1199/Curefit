@@ -33,6 +33,7 @@ public class MealController {
         return mealService.getMeals();
     }
 
+    // this method is to add the meal for user
     @PostMapping("/addmeal")
     public List<Meal> createMeal(@RequestBody CreateMealDto request){
         List<Meal> responseMeals = new ArrayList<>();
