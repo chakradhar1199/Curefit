@@ -18,5 +18,5 @@ public class Meal extends Basemodel{
     private int quantityConsumed;
 
     private int caloriesGained;
-    private String mealType;
+    private MealType mealType;
 }

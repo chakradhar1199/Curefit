@@ -24,7 +24,7 @@ public class MealService {
 
         Meal meal = new Meal();
         meal.setUser(user);
-        meal.setMealType(mealType);
+        meal.setMealType(MealType.fromString(mealType));
         meal.setQuantityConsumed(quantityConsumed);
         meal.setCaloriesGained(caloriesGained);
         meal.setFood(food);
